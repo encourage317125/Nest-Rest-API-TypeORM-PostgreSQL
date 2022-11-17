@@ -1,0 +1,38 @@
+#env
+.env
+
+test.js
+#js file and map
+src/**/*.js
+src/**/*.js.map
+tests/**/*.js
+tests/**/*.js.map
+migrate.js
+migrate.js.map
+static
+
+# dependencies
+/node_modules
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+
+# misc
+npm-debug.log
+
+# build
+/build
+
+# tests
+/coverage
+/.nyc_output
+
+#Package
+package-lock.json
+http-client.private.env.json
+*.iml
+tmp
+
+.DS_store
